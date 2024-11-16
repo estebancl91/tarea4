@@ -11,9 +11,9 @@ pool:
 
 steps:
 - task: Maven@3
-  displayName: 'Maven tarea4/pom.xml'
+  displayName: 'Maven pom.xml'
   inputs: 
-    mavenPomFile: 'tarea4/pom.xml'
+    mavenPomFile: 'pom.xml'
     codeCoverageToolOption: Cobertura
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
